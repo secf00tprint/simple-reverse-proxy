@@ -8,6 +8,10 @@ sudo docker build -t simple-reverse-proxy . && sudo docker run -ti -p 127.0.0.1:
 
 ```
 
-Detailed explanation can be found here:
+This reverse proxy is structured as following:
 
+- Docker as a container
+- Nginx as server reachable from outside
+- Python3 simple HTTP Server, server used inside
 
+A detailed explanation can be found here:
